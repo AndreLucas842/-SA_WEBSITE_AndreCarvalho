@@ -1,0 +1,256 @@
+@import url('https://fonts.googleapis.com/css2?family=Inter:ital,opsz,wght@0,14..32,100..900;1,14..32,100..900&display=swap');
+
+
+*{
+    margin: 0;
+    padding: 0px;
+}
+
+body{
+    background-color: #F5F5DC;
+    padding-bottom: 0px ;
+}
+
+.topo{
+    background-color: #0f172a;
+    display: flex;
+    align-items: center;
+    
+}
+
+.titulo{
+    color: white;
+    font-size: 1.5em;
+    font-weight:800;
+    margin: 40px;
+    margin-bottom: 10px;
+    display: flex;
+    flex-direction: column;
+}
+
+.navegacao{
+    display: flex;
+    align-items: center;   
+    margin-left: 800px;
+}
+
+.menu{
+    list-style: none;
+    display: flex;
+    gap: 15px;
+    background-color: rgb(27, 5, 107);
+    border-radius: 10px;
+    padding: 10px 25px;
+}
+
+.menu a{
+    color: white;
+    font-weight: 700;
+    padding: 10px 15px;
+    border-radius: 10px;
+    transition: 0.5s;
+}
+
+.menu a:hover{
+    background-color: rgb(13, 21, 68);
+    color: rgb(89, 194, 255);
+}
+
+.bem-vindo{
+    margin: 70px;
+    margin-bottom: 40px;
+    flex: 1 1 260px;
+    background-color: white;
+    border-radius: 10px;
+    padding: 2px 2px;
+    box-shadow: 0 1px 30px rgb(180, 180, 180);
+}
+
+.porque-escolher{
+    margin: 70px 0 0 0;
+    width: 90%;
+    margin-left: 4rem;
+    flex: 1 1 260px;
+    background-color: white;
+    border-radius: 10px;
+    box-shadow: 0 1px 30px rgb(180, 180, 180);
+    padding: 20px 30px;
+}
+
+.escolha{
+    display: grid;
+    gap: 35px;
+    align-items: center;
+    padding: 50px 10px;
+    align-self: center;
+}
+
+.texto{
+    display: flex;
+    gap: 20px;
+    flex-wrap: wrap;
+    height: 100px;
+    padding: 20px 30px;
+}
+
+.etiqueta-linha{
+    flex: 1 1 260px;
+    background-color: white;
+    border-radius: 10px;
+    box-shadow: 0 10px 25px lightgray;
+    padding: 5px;
+}
+
+
+.etiqueta-linha h3{
+    padding: 20px 20px 10px;
+    font-size: 1.3em;
+    color: #111827;
+}
+
+.etiqueta-linha p{
+    padding: 0px 20px 10px;
+    color: #6b7280;
+}
+
+.rodape{
+    color: white;
+    position: fixed;
+    bottom: 0px;
+    width: 100%;
+}  
+
+.inf{
+    text-align: center; 
+}
+
+/* PROGAMACAO */
+
+.nossos-sevicos{
+    margin: 70px;
+    margin-bottom: 40px;
+    flex: 1 1 260px;
+    background-color: white;
+    border-radius: 10px;
+    padding: 4px 4px;
+    box-shadow: 0 1px 30px rgb(180, 180, 180);
+}
+
+.tabela-total{
+    display: grid;
+    gap: 35px;
+    align-items: center;
+    padding: 50px 10px;
+    align-self: center;
+    font-size: 40px;
+    border-radius: 30px;
+    justify-content: center;
+
+}
+
+.cabecalho-tabela{
+    background-color:  rgb(26, 66, 175);
+    color: white;
+    flex-wrap: wrap;
+}
+
+.tabela{
+    background-color: white;
+    width: 100%;
+}
+
+.cabecalho-tabela tr th {
+    margin-right: 1000px;
+}
+
+/* FOTOS */
+
+.cases{
+    display: flex;
+    gap: 20px;
+    flex-wrap: wrap;
+}
+
+.fotos{
+    flex: 1 1 260px;
+    background-color: white;
+    border-radius: 20px;
+    box-shadow: 0 10px 25px lightgray;
+}
+
+.fotos img{
+    border-top-left-radius: 20px;
+    border-top-right-radius: 20px;
+    width: 100%;
+    height: 220px;
+    object-fit: cover;
+}
+
+.fotos h3{
+    padding: 20px 20px 10px;
+    font-size: 1.3em;
+    color: #111827;
+}
+
+.fotos p{
+    padding: 0px 20px 10px;
+    color: #6b7280;
+}
+
+.sucesso{
+    margin: 70px;
+    margin-bottom: 40px;
+    flex: 1 1 260px;
+    background-color: white;
+    border-radius: 10px;
+    padding: 4px 4px;
+    box-shadow: 0 1px 30px rgb(180, 180, 180);
+}
+
+/* TELA CONTATO */
+
+.contato{
+    background-color: white;
+    color: black;
+    margin-bottom: 100px;
+    padding: 20px 30px;
+    border-radius: 20px; 
+}
+
+.formulario{
+    background-color: white;
+    font-size: 30px;
+    padding: 20px 20px;
+    height: 100%;
+    width: 50%;
+    margin-left: 20%;
+    border-radius: 20px;
+    box-shadow: 0 10px 25px lightgray;
+}
+
+.abc{
+    display: grid;
+
+}
+
+.label{
+    margin-bottom: 20px;
+}
+
+.contato{
+    margin: 70px;
+    margin-bottom: 40px;
+    flex: 1 1 260px;
+    background-color: white;
+    border-radius: 10px;
+    padding: 2px 2px;
+    box-shadow: 0 1px 30px rgb(180, 180, 180);
+}
+
+#botao{
+    font-size: 30px;
+    padding: 20px 10px;
+    margin-bottom: 30px;
+    background-color: white;
+    color: black;
+}
